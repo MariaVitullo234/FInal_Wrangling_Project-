@@ -13,25 +13,25 @@ This project explores the relationship between ESG (Environmental, Social, and G
 
 ##  Folder Structure
 
-```plaintext
-esg_nasdaq_analysis/
-├── data/
-│   ├── raw/
-│   │   ├── esg_scraped_data.csv
-│   │   └── nasdaq_full_data.csv
-│   └── processed/
-│       ├── esg_cleaned.csv
-│       └── financial_ratios_subset.csv
-├── notebooks/
-│   ├── 01_data_collection_scraping.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_analysis.ipynb
-│   └── 04_visualization.ipynb
-├── outputs/
-│   ├── plots/
-│   └── results_summary.csv
-├── README.md
-└── requirements.txt
+    ```plaintext
+    esg_nasdaq_analysis/
+    ├── data/
+    │   ├── raw/
+    │   │   ├── esg_scraped_data.csv
+    │   │   └── nasdaq_full_data.csv
+    │   └── processed/
+    │       ├── esg_cleaned.csv
+    │       └── financial_ratios_subset.csv
+    ├── notebooks/
+    │   ├── 01_data_collection_scraping.ipynb
+    │   ├── 02_data_cleaning.ipynb
+    │   ├── 03_analysis.ipynb
+    │   └── 04_visualization.ipynb
+    ├── outputs/
+    │   ├── plots/
+    │   └── results_summary.csv
+    ├── README.md
+    └── requirements.txt
 
 
 ##  Data Dictionary
