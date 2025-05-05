@@ -13,7 +13,7 @@ This project explores the relationship between ESG (Environmental, Social, and G
 
 ##  Folder Structure
 
-    ```plaintext
+    
     esg_nasdaq_analysis/
     ├── data/
     │   ├── raw/
@@ -51,4 +51,9 @@ This project explores the relationship between ESG (Environmental, Social, and G
 | `ESG Score`          | Float     | Numeric measure of environmental, social, and governance performance.      |
 | `ESG Risk`           | String    | Categorical ESG risk classification (Negligible, Low, Medium, Severe).     |
 | `ESG Risk Numeric`   | Integer   | Numeric encoding of ESG Risk category.                                     |
+
+---
+
+## References
+- [Sustainalytics ESG Ratings](https://www.sustainalytics.com/esg-ratings)
 
