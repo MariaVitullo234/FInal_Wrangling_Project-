@@ -11,28 +11,41 @@ This project explores the relationship between ESG (Environmental, Social, and G
 
 ---
 
-##  Folder Structure
+## Folder Structure  
 
-    
-    esg_nasdaq_analysis/
-    ├── data/
-    │   ├── raw/
-    │   │   ├── esg_scraped_data.csv
-    │   │   └── nasdaq_full_data.csv
-    │   └── processed/
-    │       ├── esg_cleaned.csv
-    │       └── financial_ratios_subset.csv
-    ├── notebooks/
-    │   ├── 01_data_collection_scraping.ipynb
-    │   ├── 02_data_cleaning.ipynb
-    │   ├── 03_analysis.ipynb
-    │   └── 04_visualization.ipynb
-    ├── outputs/
-    │   ├── plots/
-    │   └── results_summary.csv
-    ├── README.md
-    └── requirements.txt
-
+```bash
+FINAL_WRANGLING_PROJECT/
+├── Data/
+│   ├── Final/
+│   │   └── Model_CSV.csv
+│   └── Raw/
+│       ├── esg_data_full.csv
+│       └── raw_sp500.csv
+│   └── README.md
+│
+├── Extra Files/
+│   ├── Data Dictionary.xlsx
+│   ├── extra_files.md
+│   └── mvitullo_ameid_notes.md
+│
+├── Final_Project_PDF/
+│   ├── Final_Project.pdf
+│   └── PDF.md
+│
+├── NoteBooks/
+│   ├── CheckPoint.ipynb
+│   ├── Final_Dataframe_cleaned.ipynb
+│   ├── Updated_Proposal.ipynb
+│   ├── Analysis_Q1.ipynb
+│   ├── Analysis_Q2.ipynb
+│   └── Analysis_Q3.ipynb
+│   └── Jupyter.md
+│
+├── Readme Folder/
+│   └── README.md
+│
+├── .gitignore
+└── README.md
 
 ##  Data Dictionary
 
@@ -56,4 +69,5 @@ This project explores the relationship between ESG (Environmental, Social, and G
 
 ## References
 - [Sustainalytics ESG Ratings](https://www.sustainalytics.com/esg-ratings)
+- [Wikipedia S&P 500 Ticker](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
 
