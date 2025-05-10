@@ -50,7 +50,7 @@ FINAL_WRANGLING_PROJECT/
 ##  Data Dictionary
 
 | Column Name          | Data Type | Description                                                                 |
-|----------------------|-----------|-----------------------------------------------------------------------------|
+|-----------------------|-----------|-----------------------------------------------------------------------------|
 | `Ticker`             | String    | Stock ticker symbol representing the company.                              |
 | `Company`            | String    | Full legal name of the company.                                            |
 | `P/E Ratio`          | Float     | Ratio of share price to earnings per share.                                |
@@ -70,5 +70,6 @@ FINAL_WRANGLING_PROJECT/
 ## References
 - [Sustainalytics ESG Ratings](https://www.sustainalytics.com/esg-ratings)
 - [Wikipedia S&P 500 Ticker](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
+
 
 
