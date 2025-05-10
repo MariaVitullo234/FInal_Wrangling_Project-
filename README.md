@@ -46,3 +46,29 @@ FINAL_WRANGLING_PROJECT/
 │
 ├── .gitignore
 └── README.md
+
+##  Data Dictionary
+
+| Column Name          | Data Type | Description                                                                 |
+|----------------------|-----------|-----------------------------------------------------------------------------|
+| `Ticker`             | String    | Stock ticker symbol representing the company.                              |
+| `Company`            | String    | Full legal name of the company.                                            |
+| `P/E Ratio`          | Float     | Ratio of share price to earnings per share.                                |
+| `Forward P/E`        | Float     | Projected future ratio of share price to earnings per share.               |
+| `Revenue (TTM)`      | Float     | Total revenue over the trailing twelve months.                             |
+| `Gross Profits`      | Float     | Total profits after subtracting cost of goods sold over the past 12 months.|
+| `Net Income`         | Float     | Total earnings after all expenses and taxes.                               |
+| `EBITDA`             | Float     | Earnings before interest, taxes, depreciation, and amortization.           |
+| `Market Cap`         | Float     | Total market value of a company's outstanding shares.                      |
+| `Sector`             | String    | Industry sector classification.                                            |
+| `ESG Score`          | Float     | Numeric measure of environmental, social, and governance performance.      |
+| `ESG Risk`           | String    | Categorical ESG risk classification (Negligible, Low, Medium, Severe).     |
+| `ESG Risk Numeric`   | Integer   | Numeric encoding of ESG Risk category.                                     |
+
+---
+
+## References
+- [Sustainalytics ESG Ratings](https://www.sustainalytics.com/esg-ratings)
+- [Wikipedia S&P 500 Ticker](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
+
+
