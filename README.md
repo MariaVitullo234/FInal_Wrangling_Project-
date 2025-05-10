@@ -21,7 +21,7 @@ This project explores the relationship between ESG (Environmental, Social, and G
 
 ##  Folder Structure
 
-
+```
 esg_nasdaq_analysis/
 ├── data/
 │   ├── raw/
@@ -40,6 +40,7 @@ esg_nasdaq_analysis/
 │   └── results_summary.csv
 ├── README.md
 └── requirements.txt
+```
 
 
 ##  Data Dictionary
