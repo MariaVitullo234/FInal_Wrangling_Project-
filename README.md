@@ -1,17 +1,15 @@
 
 
----
+# 📊 ESG & NASDAQ Financial Data Analysis  
+*A Data Wrangling & Analysis Project*
 
-# FInal_Wrangling_Project-
-# ESG & NASDAQ Financial Data Analysis
-
-##  Project Authors
-Maria Vitullo, Amira Eid
+### 👩‍💻 Project Authors  
+**Maria Vitullo** & **Amira Eid**
 
 ---
 
-##  Overview
-This project explores the relationship between ESG (Environmental, Social, and Governance) ratings and financial performance for companies listed on the NASDAQ. Our goal is to uncover patterns and correlations between ESG factors and financial indicators like Earnings Per Share (EPS), growth rates, and liquidity ratios.
+## 🌟 Overview  
+This project investigates the relationship between **Environmental, Social, and Governance (ESG) scores** and key **financial performance metrics** for companies listed on the NASDAQ.
 
 ---
 
@@ -56,6 +54,30 @@ esg_nasdaq_analysis/
 | 'ESG Score'          | Float     | Numeric measure of environmental, social, and governance performance.      |
 | 'ESG Risk'           | String    | Categorical ESG risk classification (Negligible, Low, Medium, Severe).     |
 | 'ESG Risk Numeric'   | Integer   | Numeric encoding of ESG Risk category.                                     |
+
+
+## 🔍 Project Highlights  
+✅ Web scraped ESG risk scores for 1,400+ companies  
+✅ Pulled financial data from Yahoo Finance using Python  
+✅ Cleaned & merged datasets using pandas  
+✅ Visualized trends across sectors and market caps  
+✅ Built regression models to explore predictive links between ESG and financial health
+
+---
+
+## 📌 Technologies Used  
+- 🐍 Python (pandas, seaborn, matplotlib, scikit-learn)  
+- 💻 Jupyter Notebooks  
+- 🔗 Web Scraping  
+- 📊 Data Visualization & Statistical Analysis  
+
+---
+
+## 🧠 Key Questions We Answered  
+- Do companies with higher ESG scores outperform financially?  
+- Is there a pattern between **market cap** and ESG behavior?  
+- Which **sectors** lead or lag in ESG adoption?
+
 
 
 
