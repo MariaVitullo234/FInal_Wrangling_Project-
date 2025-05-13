@@ -1,8 +1,4 @@
-# FINAL_WRANGLING_PROJECT  
-## ESG & NASDAQ Financial Data Analysis
 
-### Project Authors  
-Maria Vitullo, Amira Eid  
 
 ---
 
